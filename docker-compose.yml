@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  dotnetaurelia:
+    image: dotnetaurelia
+    build:
+      context: ./dotnetaurelia
+      dockerfile: Dockerfile
